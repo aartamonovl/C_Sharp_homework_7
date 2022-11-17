@@ -1,0 +1,15 @@
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\C_Sharp_homework_7.csproj.AssemblyReference.cache
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\C_Sharp_homework_7.GeneratedMSBuildEditorConfig.editorconfig
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\C_Sharp_homework_7.AssemblyInfoInputs.cache
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\C_Sharp_homework_7.AssemblyInfo.cs
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\C_Sharp_homework_7.csproj.CoreCompileInputs.cache
+D:\GB\C#\C_Sharp_homework_7\bin\Debug\net6.0\C_Sharp_homework_7.exe
+D:\GB\C#\C_Sharp_homework_7\bin\Debug\net6.0\C_Sharp_homework_7.deps.json
+D:\GB\C#\C_Sharp_homework_7\bin\Debug\net6.0\C_Sharp_homework_7.runtimeconfig.json
+D:\GB\C#\C_Sharp_homework_7\bin\Debug\net6.0\C_Sharp_homework_7.dll
+D:\GB\C#\C_Sharp_homework_7\bin\Debug\net6.0\C_Sharp_homework_7.pdb
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\C_Sharp_homework_7.dll
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\refint\C_Sharp_homework_7.dll
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\C_Sharp_homework_7.pdb
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\C_Sharp_homework_7.genruntimeconfig.cache
+D:\GB\C#\C_Sharp_homework_7\obj\Debug\net6.0\ref\C_Sharp_homework_7.dll
