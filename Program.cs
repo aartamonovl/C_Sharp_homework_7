@@ -99,56 +99,56 @@
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
 
-int[,] Create2dArray()
-{
-    int rows = new Random().Next(1, 5);
-    int columns = new Random().Next(1, 5);
-    int[,] createdArray = new int[rows, columns];
+// int[,] Create2dArray()
+// {
+//     int rows = new Random().Next(1, 5);
+//     int columns = new Random().Next(1, 5);
+//     int[,] createdArray = new int[rows, columns];
 
-    for (int i = 0; i < rows; i++)
-        for (int j = 0; j < columns; j++)
-            createdArray[i, j] = new Random().Next(0, 10);
+//     for (int i = 0; i < rows; i++)
+//         for (int j = 0; j < columns; j++)
+//             createdArray[i, j] = new Random().Next(0, 10);
 
-    return createdArray;
-}
+//     return createdArray;
+// }
 
-void Show2dArray (int[,] array)
-{
-    for(int i = 0; i < array.GetLength(0); i++)
-    {
-        for(int j = 0; j < array.GetLength(1); j++)
-            Console.Write(array[i, j] + " ");
-        Console.WriteLine();
-    }
-    Console.WriteLine();
-}
+// void Show2dArray (int[,] array)
+// {
+//     for(int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for(int j = 0; j < array.GetLength(1); j++)
+//             Console.Write(array[i, j] + " ");
+//         Console.WriteLine();
+//     }
+//     Console.WriteLine();
+// }
 
-void ShowArray (double[] array)
-{
-    for(int i = 0; i < array.Length; i++)
-    {
-            Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
+// void ShowArray (double[] array)
+// {
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//             Console.Write(array[i] + " ");
+//     }
+//     Console.WriteLine();
+// }
 
-double [] MediumNumColumns (int [,] array)
-{
-    int rowCount = array.GetLength(0);
-    int colCount = array.GetLength(1);
-    double [] midColArray = new double [colCount];
-    for (int j = 0; j < colCount; j++)
-    {     
-        double midSum = 0;  
-        for(int i = 0; i < rowCount; i++)
-        {
-            midSum += array[i, j];
-        }
-        midColArray[j] = Math.Round(midSum / rowCount, 1);
-    }
-    return midColArray;
-}
+// double [] MediumNumColumns (int [,] array)
+// {
+//     int rowCount = array.GetLength(0);
+//     int colCount = array.GetLength(1);
+//     double [] midColArray = new double [colCount];
+//     for (int j = 0; j < colCount; j++)
+//     {     
+//         double midSum = 0;  
+//         for(int i = 0; i < rowCount; i++)
+//         {
+//             midSum += array[i, j];
+//         }
+//         midColArray[j] = Math.Round(midSum / rowCount, 1);
+//     }
+//     return midColArray;
+// }
 
-int [,] randArray = Create2dArray();
-Show2dArray(randArray);
-ShowArray(MediumNumColumns(randArray));
+// int [,] randArray = Create2dArray();
+// Show2dArray(randArray);
+// ShowArray(MediumNumColumns(randArray));
